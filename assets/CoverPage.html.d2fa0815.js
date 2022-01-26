@@ -1,1 +1,0 @@
-const e={key:"v-22bc8764",path:"/branding/CoverPage.html",title:"Cover page",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Hero image",slug:"hero-image",children:[]}],git:{updatedTime:1643198355e3,contributors:[{name:"Julian Rabe",email:"jr@tough.dev",commits:1}]},filePathRelative:"branding/CoverPage.md"};export{e as data};
