@@ -1,0 +1,26 @@
+{
+  "name": "tough.zone-docs",
+  "version": "1.0.0",
+  "description": "Documentation for https://tough.zone",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tough-solutions/tough.zone-docs.git"
+  },
+  "author": "Julian Rabe <jr@tough.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tough-solutions/tough.zone-docs/issues"
+  },
+  "homepage": "https://github.com/tough-solutions/tough.zone-docs#readme",
+  "devDependencies": {
+    "@vuepress/plugin-register-components": "~2.0.0-beta.35",
+    "@vuepress/plugin-search": "~2.0.0-beta.35",
+    "@vuepress/plugin-shiki": "~2.0.0-beta.35",
+    "vuepress": "~2.0.0-beta.35"
+  }
+}
