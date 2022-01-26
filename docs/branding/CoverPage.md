@@ -21,3 +21,9 @@ Specifications:
 
 * 1620 x 1080 px
 * PNG or JPG
+
+## Examples
+
+![regular cover page](./img/cover_regular.png)
+![narrow cover page](./img/cover_square.png)
+![wide cover page](./img/cover_letterbox.png)
