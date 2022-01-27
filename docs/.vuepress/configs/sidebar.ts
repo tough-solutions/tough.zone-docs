@@ -7,6 +7,7 @@ export const sidebar: SidebarConfig = {
             children: [
                 "/branding/README.md",
                 "/branding/CoverPage.md",
+                "/branding/ClientLogo.md",
             ]
         },
     ],
