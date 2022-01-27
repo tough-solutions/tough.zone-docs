@@ -21,5 +21,5 @@ footerHtml: true
 
 # Welcome
 
-Welcome to the `tough.zone` docs. We hope to provide all necessary and useful information on this
+Welcome to the <ToughZone /> docs. We hope to provide all necessary and useful information on this
 page which helps you to have the best experience possible.
