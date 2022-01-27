@@ -8,6 +8,7 @@ export const sidebar: SidebarConfig = {
                 "/branding/README.md",
                 "/branding/CoverPage.md",
                 "/branding/ClientLogo.md",
+                "/branding/UiColors.md",
             ]
         },
     ],
