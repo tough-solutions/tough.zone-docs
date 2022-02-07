@@ -1,0 +1,22 @@
+{
+    "postUpdateOptions": ["npmDedupe"],
+    "rollbackPrs": true,
+    "labels": ["dependencies"],
+    "lockFileMaintenance": { "enabled": true, "automerge": true },
+    "prCreation": "not-pending",
+    "packageRules": [
+        {
+            "matchPackagePatterns": "^@types/",
+            "groupName": "Definitely typed",
+            "automerge": true
+        },
+        {
+            "matchPackagePatterns": ["^eslint"],
+            "groupName": "ESLint",
+            "automerge": true
+        }
+    ],
+    "schedule": ["after 1pm and before 4pm every monday"],
+    "timezone": "Europe/Berlin",
+    "automerge": true
+}
