@@ -10,6 +10,7 @@ export const sidebar: SidebarConfig = {
                 "/branding/ClientLogo.md",
                 "/branding/UiColors.md",
                 "/branding/BorderRadius.md",
+                "/branding/Icons.md",
             ]
         },
     ],
