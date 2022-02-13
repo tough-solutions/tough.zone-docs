@@ -39,6 +39,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     // theme and its config
     theme: "@vuepress/theme-default",
     themeConfig: {
+        contributors: false,
         logo: "/images/logo.svg",
         repo: "tough-solutions/tough.zone-docs",
         docsBranch: "master",
