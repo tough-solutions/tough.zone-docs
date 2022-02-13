@@ -8,7 +8,7 @@ const isProd = process.env.NODE_ENV === "production";
 export default defineUserConfig<DefaultThemeOptions>({
     // site config
     lang: "en-US",
-    title: "tough.zone",
+    title: "tough.zone Documentation",
     description: "The official documentation for tough.zone",
     head: [
         ["link", {rel: "icon", type: "image/png", href: "/favicon-32x32.png", sizes: "32x32"}],
