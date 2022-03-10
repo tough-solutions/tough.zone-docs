@@ -11,6 +11,7 @@ export const sidebar: SidebarConfig = {
                 "/branding/UiColors.md",
                 "/branding/BorderRadius.md",
                 "/branding/Icons.md",
+                "/branding/StageTiles.md",
             ]
         },
     ],
