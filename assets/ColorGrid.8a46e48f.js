@@ -1,0 +1,1 @@
+import{o as r,c as o,r as t}from"./app.e667b7ad.js";import{_}from"./plugin-vue_export-helper.21dcd24c.js";const s={},a={class:"containerGrid"};function n(e,c){return r(),o("div",a,[t(e.$slots,"default",{},void 0,!0)])}var l=_(s,[["render",n],["__scopeId","data-v-3541e080"]]);export{l as default};
