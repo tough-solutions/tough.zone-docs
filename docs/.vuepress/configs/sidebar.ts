@@ -12,6 +12,7 @@ export const sidebar: SidebarConfig = {
                 "/branding/BorderRadius.md",
                 "/branding/Icons.md",
                 "/branding/StageTiles.md",
+                "/branding/CustomEmailAddress.md"
             ]
         },
     ],
