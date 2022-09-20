@@ -3,13 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <meta name="generator" content="VuePress 2.0.0-beta.37">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16"><link rel="icon" href="/favicon.ico"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="mask-icon" href="/mask-icon.svg" color="#9D174D"><title>tough.zone Documentation</title><meta name="description" content="The official documentation for tough.zone">
-    <link rel="modulepreload" href="/assets/app.adaf1e10.js"><link rel="modulepreload" href="/assets/404.html.1280863f.js"><link rel="modulepreload" href="/assets/_plugin-vue_export-helper.cdc0426e.js"><link rel="modulepreload" href="/assets/404.html.fbc7345a.js"><link rel="prefetch" href="/assets/index.html.9406ba97.js"><link rel="prefetch" href="/assets/BorderRadius.html.eb943fa6.js"><link rel="prefetch" href="/assets/ClientLogo.html.2f96a436.js"><link rel="prefetch" href="/assets/CoverPage.html.12b4147e.js"><link rel="prefetch" href="/assets/CustomEmailAddress.html.64309d6a.js"><link rel="prefetch" href="/assets/Icons.html.443281fd.js"><link rel="prefetch" href="/assets/index.html.2dee69f6.js"><link rel="prefetch" href="/assets/StageTiles.html.29c5bd38.js"><link rel="prefetch" href="/assets/UiColors.html.ccd25ec4.js"><link rel="prefetch" href="/assets/index.html.3676a0f6.js"><link rel="prefetch" href="/assets/index.html.3b3146c4.js"><link rel="prefetch" href="/assets/BorderRadius.html.7f5ecbbd.js"><link rel="prefetch" href="/assets/ClientLogo.html.3d220fa6.js"><link rel="prefetch" href="/assets/CoverPage.html.bf4b7b29.js"><link rel="prefetch" href="/assets/CustomEmailAddress.html.e8ba0776.js"><link rel="prefetch" href="/assets/Icons.html.69db0f89.js"><link rel="prefetch" href="/assets/index.html.9844f7f1.js"><link rel="prefetch" href="/assets/StageTiles.html.8b3d63be.js"><link rel="prefetch" href="/assets/UiColors.html.30e86746.js"><link rel="prefetch" href="/assets/index.html.8611bc4c.js">
-    
+    <link rel="modulepreload" href="/assets/app.ed41f9ea.js"><link rel="modulepreload" href="/assets/404.html.f166316b.js"><link rel="modulepreload" href="/assets/404.html.526c8203.js">
+    <link rel="stylesheet" href="/assets/style.d183e129.css">
   </head>
   <body>
-    <div id="app"><!--[--><!----><!--]--></div>
-    <script type="module" src="/assets/app.adaf1e10.js" defer></script>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.ed41f9ea.js" defer></script>
   </body>
 </html>
