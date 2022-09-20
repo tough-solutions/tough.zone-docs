@@ -6,6 +6,10 @@
     "prCreation": "not-pending",
     "packageRules": [
         {
+            "matchPackagePatterns": ["^@vuepress/", "^vuepress$"],
+            "groupName": "Vuepress"
+        },
+        {
             "matchPackagePatterns": "^@types/",
             "groupName": "Definitely typed",
             "automerge": true
