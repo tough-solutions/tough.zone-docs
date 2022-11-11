@@ -13,7 +13,8 @@ export const sidebar: SidebarConfig = {
                 "/branding/Icons.md",
                 "/branding/StageTiles.md",
                 "/branding/CustomEmails.md",
-                "/branding/CustomEmailAddress.md"
+                "/branding/CustomEmailAddress.md",
+                "/branding/CustomReactions.md"
             ]
         },
     ],
