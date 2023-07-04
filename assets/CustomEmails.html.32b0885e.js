@@ -1,0 +1,1 @@
+const e={key:"v-41bb9636",path:"/branding/CustomEmails.html",title:"Custom Email Templates",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Email header",slug:"email-header",children:[]}],git:{updatedTime:1688474769e3},filePathRelative:"branding/CustomEmails.md"};export{e as data};
