@@ -1,33 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="generator" content="VuePress 2.0.0-beta.37">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
     <style>
       :root {
-        --c-bg: #fff;
+        --vp-c-bg: #fff;
       }
-      html.dark {
-        --c-bg: #22272e;
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
       }
-      html, body {
-        background-color: var(--c-bg);
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
       }
     </style>
     <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme');
-			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-				document.documentElement.classList.toggle('dark', true);
-			}
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
     </script>
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16"><link rel="icon" href="/favicon.ico"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="mask-icon" href="/mask-icon.svg" color="#9D174D"><title>tough.zone Documentation</title><meta name="description" content="The official documentation for tough.zone">
-    <link rel="modulepreload" href="/assets/app.a2a9b4dc.js"><link rel="modulepreload" href="/assets/404.html.f166316b.js"><link rel="modulepreload" href="/assets/404.html.5ba1518a.js">
-    <link rel="stylesheet" href="/assets/style.d183e129.css">
+    <link rel="preload" href="/assets/style-CEfET3vm.css" as="style"><link rel="stylesheet" href="/assets/style-CEfET3vm.css">
+    <link rel="modulepreload" href="/assets/app-bcBgwbKt.js"><link rel="modulepreload" href="/assets/404.html-h9v_1eyA.js">
+    <link rel="prefetch" href="/assets/index.html-Dcb4e2U5.js" as="script"><link rel="prefetch" href="/assets/BorderRadius.html-Cu2EP7vC.js" as="script"><link rel="prefetch" href="/assets/ClientLogo.html-BDzFL2K4.js" as="script"><link rel="prefetch" href="/assets/CoverPage.html-Bavti3k7.js" as="script"><link rel="prefetch" href="/assets/CustomEmailAddress.html-rYs4KEQV.js" as="script"><link rel="prefetch" href="/assets/CustomEmails.html-B9_NfcnE.js" as="script"><link rel="prefetch" href="/assets/CustomReactions.html-dwPpW_QX.js" as="script"><link rel="prefetch" href="/assets/Icons.html-ByKq-n40.js" as="script"><link rel="prefetch" href="/assets/index.html-CHgHfnjq.js" as="script"><link rel="prefetch" href="/assets/StageTiles.html-CYgi8vMf.js" as="script"><link rel="prefetch" href="/assets/UiColors.html--Ap5YWHG.js" as="script"><link rel="prefetch" href="/assets/index.html-Xc0Wobxd.js" as="script"><link rel="prefetch" href="/assets/ColorCard-BcP8C8EX.js" as="script"><link rel="prefetch" href="/assets/ColorGrid-DtuZb69T.js" as="script"><link rel="prefetch" href="/assets/ToughZone-BpGUMiCE.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-QXEOFQJV-CoEItJ3m.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/" class="">Take me home</a></div></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.a2a9b4dc.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-bcBgwbKt.js" defer></script>
   </body>
 </html>
