@@ -1,8 +1,8 @@
 # Border radius
 
-The border radius of all layout boxes can be adjusted. We use `rem` as unit to express it.
+The border radius of all layout boxes and buttons can be adjusted. We use `rem` as unit to express it.
 
-The default border radius is `0.75rem`.
+The default border radius for both is `0.75rem`.
 
 ## Examples
 
