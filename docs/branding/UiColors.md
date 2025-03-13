@@ -8,7 +8,7 @@
 </ColorGrid>
 <ColorGrid>
     <ColorCard name="brand-gray" color="#e7ebf1" />
-    <ColorCard name="dark" color="#231f20" />
+    <ColorCard name="dark" color="#231f20" name-color="#ffffff" />
 </ColorGrid>
 <ColorGrid>
     <ColorCard name="error" color="#ef4444" />
