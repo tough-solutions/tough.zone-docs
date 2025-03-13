@@ -17,7 +17,7 @@ features:
   details: Hosted in three redundant availability zones together with test-driven development, we are proud to be reliable.
 - title: Interactive
   details: Your event would be nothing without your audience. Good thing they will become part of it using our revolutionary interaction features.
-footer: Copyright © 2021-present <a href="https://toughsolutions.io">tough solutions GmbH</a>
+footer: Copyright © 2021-present <a href="https://www.loud-gmbh.de/impressum/" target="_blank">loud GmbH</a>
 footerHtml: true
 ---
 
