@@ -1,39 +1,10 @@
 import { SidebarOptions } from "@vuepress/theme-default"
+import {brandingSidebar} from "../../branding/configs/sidebar";
+import {generalSidebar} from "../../general/configs/sidebar";
+import {technicalSidebar} from "../../technical/configs/sidebar";
 
 export const sidebar: SidebarOptions = {
-    "/branding/": [
-        {
-            text: "Branding",
-            children: [
-                "/branding/README.md",
-                "/branding/CoverPage.md",
-                "/branding/ClientLogo.md",
-                "/branding/UiColors.md",
-                "/branding/Typography.md",
-                "/branding/BorderRadius.md",
-                "/branding/Icons.md",
-                "/branding/StageTiles.md",
-                "/branding/CustomEmails.md",
-                "/branding/CustomEmailAddress.md",
-                "/branding/CustomReactions.md"
-            ]
-        },
-    ],
-    "/general/": [
-        {
-            text: "General information",
-            children: [
-                "/general/README.md"
-            ]
-        }
-    ],
-    "/technical/": [
-        {
-            text: "Technical information",
-            children: [
-                "/technical/README.md",
-                "/technical/CustomDomain.md"
-            ]
-        }
-    ]
+    "/branding/": brandingSidebar,
+    "/general/": generalSidebar,
+    "/technical/": technicalSidebar,
 };
