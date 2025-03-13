@@ -25,5 +25,14 @@ export const sidebar: SidebarOptions = {
                 "/general/README.md"
             ]
         }
+    ],
+    "/technical/": [
+        {
+            text: "Technical information",
+            children: [
+                "/technical/README.md",
+                "/technical/CustomDomain.md"
+            ]
+        }
     ]
 };

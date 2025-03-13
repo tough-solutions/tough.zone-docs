@@ -4,7 +4,7 @@ heroImage: /images/logo.svg
 heroText: tough.zone
 tagline: Your event 2.0 framework
 actions:
-- text: General information
+- text: General
   link: /general/
 - text: Branding
   link: /branding/
