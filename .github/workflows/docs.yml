@@ -8,6 +8,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 22
             - uses: bahmutov/npm-install@v1.10.7
             - run: npm run docs:build
             - uses: peaceiris/actions-gh-pages@v4
