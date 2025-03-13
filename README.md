@@ -1,4 +1,4 @@
-# `tough.docs`
+# `docs.tough.zone`
 
 This is the code for [docs.tough.zone](https://docs.tough.zone).
 
