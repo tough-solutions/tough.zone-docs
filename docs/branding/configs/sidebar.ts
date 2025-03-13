@@ -1,19 +1,29 @@
 import {SidebarArrayOptions} from "@vuepress/theme-default";
 
 export const brandingSidebar: SidebarArrayOptions = [
+  "/branding/README.md",
   {
-    text: "Branding",
+    text: "Layout / Mailing",
     children: [
-      "/branding/README.md",
-      "/branding/CoverPage.md",
-      "/branding/ClientLogo.md",
-      "/branding/UiColors.md",
-      "/branding/Typography.md",
       "/branding/BorderRadius.md",
-      "/branding/Icons.md",
-      "/branding/StageTiles.md",
       "/branding/CustomEmails.md",
       "/branding/CustomEmailAddress.md",
+    ]
+  },
+  {
+    text: "Colors / Typography",
+    children: [
+      "/branding/UiColors.md",
+      "/branding/Typography.md"
+    ]
+  },
+  {
+    text: "Images / Icons",
+    children: [
+      "/branding/CoverPage.md",
+      "/branding/ClientLogo.md",
+      "/branding/Icons.md",
+      "/branding/StageTiles.md",
       "/branding/CustomReactions.md"
     ]
   },
