@@ -13,7 +13,8 @@ instance for you.
 ### Domain provided by client
 
 * desired FQDN
-* client IT contacts who are able to manage DNS records for the desired FQDN (for technical details refer to [this page](/technical/CustomDomain.md)).
+* client IT contacts who are able to manage DNS records for the desired FQDN (for technical details
+  and process refer to [this page](/technical/CustomDomain.md)).
 
 ## URLs
 
