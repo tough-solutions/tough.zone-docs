@@ -7,7 +7,7 @@ The exchangeable client logo is visible in two ways:
 
 ## Specifications
 
-* SVG
+* SVG (and PNG if used in [email templates](CustomEmails.md))
 * no padding around logo (this is added with HTML on the page)
 
 ## Examples
