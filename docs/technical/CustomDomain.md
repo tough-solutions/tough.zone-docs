@@ -30,12 +30,12 @@ do not need to care about technical details.
 If you decide that we handle needed certificates for your instance, there are two ways to validate
 certificate creation through AWS' certificate authority:
 
-a. DNS validation (recommended):
+##### DNS validation (recommended):
   1. certificates are requested and pending
   2. we will provide you with DNS records you need to set for certificate validation
   3. after DNS is validated, the needed certificates are created and can deploy your instance
 
-b. Email validation
+##### Email validation
   1. certificates are requested and pending
   2. the technical contact on record with your domain registrar receives an email from AWS with
      steps how to validate certificate creation
