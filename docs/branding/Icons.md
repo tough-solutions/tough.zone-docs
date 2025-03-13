@@ -5,7 +5,7 @@ use-cases outlined below.
 
 ## Regular Favicon
 
-Most general website icon available. Support depends on browser.
+Most regular favicons types are supported. Browser support varies across types and browser versions.
 
 <table>
     <thead>
