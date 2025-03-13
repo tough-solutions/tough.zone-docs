@@ -1,0 +1,1 @@
+import{_ as o,e as r,o as t,l as s}from"./app-CpPJPEP9.js";const c={},n={class:"containerGrid"};function a(e,d){return t(),r("div",n,[s(e.$slots,"default",{},void 0,!0)])}const l=o(c,[["render",a],["__scopeId","data-v-10ce7379"],["__file","ColorGrid.vue"]]);export{l as default};
