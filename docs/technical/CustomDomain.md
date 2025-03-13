@@ -25,12 +25,20 @@ do not need to care about technical details.
 
 ### You take care of DNS
 
-#### Certificates handled by us (recommended)
+::: tip
+We generally recommend that certificates are handled by us.
+:::
+
+#### Certificates handled by us
 
 If you decide that we handle needed certificates for your instance, there are two ways to validate
 certificate creation through AWS' certificate authority:
 
-##### DNS validation (recommended):
+::: tip
+We generally recommend DNS verification.
+:::
+
+##### DNS validation
   1. certificates are requested and pending
   2. we will provide you with DNS records you need to set for certificate validation
   3. after DNS is validated, the needed certificates are created and can deploy your instance
