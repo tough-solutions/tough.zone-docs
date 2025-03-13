@@ -1,6 +1,6 @@
-import { NavbarConfig } from "@vuepress/theme-default";
+import { NavbarOptions } from "@vuepress/theme-default";
 
-export const navbar: NavbarConfig = [
+export const navbar: NavbarOptions = [
     {
         text: "General information",
         link: "/general/"

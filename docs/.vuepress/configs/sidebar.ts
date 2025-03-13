@@ -1,6 +1,6 @@
-import { SidebarConfig } from "@vuepress/theme-default"
+import { SidebarOptions } from "@vuepress/theme-default"
 
-export const sidebar: SidebarConfig = {
+export const sidebar: SidebarOptions = {
     "/branding/": [
         {
             text: "Branding",

@@ -1,11 +1,13 @@
 import {defineUserConfig} from "vuepress"
-import type {DefaultThemeOptions} from "vuepress"
 import {navbar, sidebar} from "./configs"
 import * as path from "path";
+import viteBundler from "@vuepress/bundler-vite";
+import {defaultTheme} from "@vuepress/theme-default";
+import {searchPlugin} from "@vuepress/plugin-search";
+import {registerComponentsPlugin} from "@vuepress/plugin-register-components";
+import {shikiPlugin} from "@vuepress/plugin-shiki";
 
-const isProd = process.env.NODE_ENV === "production";
-
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
     // site config
     lang: "en-US",
     title: "tough.zone Documentation",
@@ -18,38 +20,29 @@ export default defineUserConfig<DefaultThemeOptions>({
         ["link", {rel: "mask-icon", href: "/mask-icon.svg", color: "#9D174D"}],
     ],
     plugins: [
-        "@vuepress/plugin-search",
-        // only enable shiki plugin in production mode
-        [
-            "@vuepress/plugin-shiki",
-            isProd
-                ? {
-                    theme: "dark-plus",
-                }
-                : false,
-        ],
-        [
-            '@vuepress/plugin-register-components',
-            {
-                componentsDir: path.resolve(__dirname, './components'),
-            },
-        ],
+        searchPlugin(),
+        shikiPlugin({
+            theme: "dark-plus",
+        }),
+        registerComponentsPlugin({
+            componentsDir: path.resolve(__dirname, './components'),
+        }),
     ],
 
     // theme and its config
-    theme: "@vuepress/theme-default",
-    themeConfig: {
+    theme: defaultTheme({
         contributors: false,
         logo: "/images/logo.svg",
         repo: "tough-solutions/tough.zone-docs",
         docsBranch: "master",
         docsDir: "docs",
-        smoothScroll: true,
-        themePlugins: {
-            prismjs: !isProd
-        },
         editLinkText: "Edit this page on GitHub",
         navbar,
         sidebar,
-    },
+    }),
+
+    bundler: viteBundler({
+        viteOptions: {},
+        vuePluginOptions: {},
+    }),
 })
