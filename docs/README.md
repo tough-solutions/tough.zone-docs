@@ -6,6 +6,8 @@ tagline: Your event 2.0 framework
 actions:
 - text: General
   link: /general/
+- text: Technical
+  link: /technical/
 - text: Branding
   link: /branding/
 features:
